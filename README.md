@@ -3,7 +3,9 @@
 
 ### How to run
 First, you need to install two libraries in your cmd:
+
 `pip install yandex-music`
+
 `pip install vk_api`
 
 Thanks to MarshalX and "Python273". There their repos:
