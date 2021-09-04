@@ -12,13 +12,18 @@ Thanks to MarshalX and "Python273" for these libraries. There their repos:
 
 Next, you must create `credentials.py` in folder with script, open it in your text editor and add these strings:
 ```
-ya_email = 'your_login_email_for_yandex@gmail.com'
-ya_passw = 'your_password_for_yandex'
-vk_email = 'your_email_for_login_to_vk@email.com'  # or phone-number
-vk_passw = 'your_password_for_vk'
-vk_id = 1234567  # your id
+ya_email = 'login_email_for_yandex@gmail.com'
+ya_passw = 'password_for_yandex'
+vk_email = 'email_for_login_to_vk@email.com'  # or phone-number
+vk_passw = 'password_for_vk'
+vk_id = 1234567
 ```
+`ya_email` and `ya_passw` - your credentials for login to Yandex.Music.
+
+`vk_email` and `vk_passw` - for VK, respectively.
+
 Pay attention, emails and passwords must be entered **between apostrophes**.
+
 `vk_id` - your VK user_id, without apostrophes. It can be find in address bar of your browser when you enter to your audios page. For example: https://vk.com/audios1234567. **1234567** - is your vk_id.
 
 ### Что делает скрипт
