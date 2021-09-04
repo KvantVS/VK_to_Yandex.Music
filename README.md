@@ -18,7 +18,8 @@ vk_email = 'your_email_for_login_to_vk@email.com'  # or phone-number
 vk_passw = 'your_password_for_vk'
 vk_id = 1234567  # your id
 ```
-Pay attention, emails and passwords must be entered **between apostrophes**. vk_id - your VK user_id, without apostrophes. It can be find in address bar of your browser when you enter to your audios page. For example: https://vk.com/audios**1234567**
+Pay attention, emails and passwords must be entered **between apostrophes**.
+`vk_id` - your VK user_id, without apostrophes. It can be find in address bar of your browser when you enter to your audios page. For example: https://vk.com/audios1234567. **1234567** - is your vk_id.
 
 ### Что делает скрипт
 1. Скрипт собирает ваши аудиозаписи с ВК;
