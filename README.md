@@ -4,6 +4,8 @@
 ### How to run
 `VK_to_Yandex_music.py`
 
+![formated output](Screenshots/scr1.png)
+
 First, you need to install two libraries in your cmd:  
 `pip install yandex-music`  
 `pip install vk_api`
