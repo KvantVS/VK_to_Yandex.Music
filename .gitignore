@@ -116,3 +116,6 @@ dmypy.json
 # My
 credentials.py
 info/*
+all_songs.txt
+sorted_not_founded_vk_songs.txt
+not_founded_vk_songs.txt
