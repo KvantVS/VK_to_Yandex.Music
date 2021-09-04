@@ -1,7 +1,7 @@
 # VK_to_Yandex.Music
  Transfer all your songs from VK audios to Yandex.Music service.
 
-##### HOW TO RUN
+### How to run
 First, you need to install two libraries in your cmd:
 `pip install yandex-music`
 `pip install vk_api`
@@ -20,6 +20,7 @@ vk_id = 1234567  # your id
 ```
 Pay attention, emails and passwords must be entered **between apostrophes**. vk_id - without apostrophes.
 
+### Что делает скрипт
 1. Скрипт собирает ваши аудиозаписи с ВК;
 2. Сохраняет их в текстовый файл `all_songs.txt` в папку со скриптом чтобы потом при запуске скрипта была возможность загрузить треки из файла, вместо того, чтобы  грузить ВК запросами. Это на случай если за один сеанс все треки перенести не удаётся;
 3. Идёт по каждому треку и ищет его в Яндекс.музыке; 
