@@ -2,15 +2,17 @@
  Transfer all your songs from VK audios to Yandex.Music service.
 
 ### How to run
-First, you need to install two libraries in your cmd:
-`pip install yandex-music`
+`VK_to_Yandex_music.py`
 
+First, you need to install two libraries in your cmd:  
+`pip install yandex-music`  
 `pip install vk_api`
-Thanks to MarshalX and "Python273" for these libraries. There their repos:
-[yandex-music](https://github.com/MarshalX/yandex-music-api)
+
+Thanks to MarshalX and "Python273" for these libraries. Here are their repos:  
+[yandex-music](https://github.com/MarshalX/yandex-music-api)  
 [vk-api](https://github.com/python273/vk_api)
 
-Next, you must create `credentials.py` in folder with script, open it in your text editor and add these strings:
+Next, you must create `credentials.py` in script folder, open it in your text editor and add these strings:
 ```
 ya_email = 'login_email_for_yandex@gmail.com'
 ya_passw = 'password_for_yandex'
@@ -18,8 +20,7 @@ vk_email = 'email_for_login_to_vk@email.com'  # or phone-number
 vk_passw = 'password_for_vk'
 vk_id = 1234567
 ```
-`ya_email` and `ya_passw` - your credentials for login to Yandex.Music.
-
+`ya_email` and `ya_passw` - your credentials for login to Yandex.Music.  
 `vk_email` and `vk_passw` - for VK, respectively.
 
 Pay attention, emails and passwords must be entered **between apostrophes**.
